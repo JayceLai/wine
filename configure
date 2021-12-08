@@ -24662,4 +24662,6 @@ printf "%s\n" "
 $as_me: Finished.  Do '${ac_make}' to compile Wine.
 " >&6
 
-
+echo "=================" > enable.log
+echo "SUBDIRS: $SUBDIRS" >> enable.log
+echo "DISABLED_SUBDIRS: $DISABLED_SUBDIRS" >> enable.log
